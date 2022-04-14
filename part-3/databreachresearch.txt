@@ -1,0 +1,8 @@
+In October of 2016 hackers used Local File Inclusion (LFI) flaws on the Adult Friend Finder website to access the 
+site's database of users. It also turned out that the vast majority of the passwords were hashed weakly using SHA1
+making the account easily accessed with the information in the site's database after the passwords were cracked.
+
+The company has since fixed the LFI flaws on the site and now uses stronger hashing.
+
+The motivation behind this attack seems on it's face to be social justice but I'm sure there was some amount of 
+blackmail being attempted.
